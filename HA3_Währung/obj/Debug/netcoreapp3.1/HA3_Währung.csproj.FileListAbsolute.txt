@@ -1,0 +1,13 @@
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\bin\Debug\netcoreapp3.1\HA3_Währung.exe
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\bin\Debug\netcoreapp3.1\HA3_Währung.deps.json
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\bin\Debug\netcoreapp3.1\HA3_Währung.runtimeconfig.json
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\bin\Debug\netcoreapp3.1\HA3_Währung.runtimeconfig.dev.json
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\bin\Debug\netcoreapp3.1\HA3_Währung.dll
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\bin\Debug\netcoreapp3.1\HA3_Währung.pdb
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\obj\Debug\netcoreapp3.1\HA3_Währung.csprojAssemblyReference.cache
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\obj\Debug\netcoreapp3.1\HA3_Währung.csproj.CoreCompileInputs.cache
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\obj\Debug\netcoreapp3.1\HA3_Währung.AssemblyInfoInputs.cache
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\obj\Debug\netcoreapp3.1\HA3_Währung.AssemblyInfo.cs
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\obj\Debug\netcoreapp3.1\HA3_Währung.dll
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\obj\Debug\netcoreapp3.1\HA3_Währung.pdb
+C:\Users\alexb\source\repos\HA3_Währung\HA3_Währung\obj\Debug\netcoreapp3.1\HA3_Währung.genruntimeconfig.cache

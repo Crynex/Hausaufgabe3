@@ -18,15 +18,15 @@ namespace HA3_Währung
             double geldsoll = geldhaben;
             double kurs = (double)Währung.kurse[währungsoll];  //Kurs aus Hashtabelle haben * kurs = New Währung              
             geldsoll = geldhaben * kurs;
-            return geldsoll;
+            return Math.Round(geldsoll, 2);
         }
 
         public double inEuro(double geldhaben, string währunghaben)
         {
-            double geld = geldhaben;
+            double geldsoll = geldhaben;
             double kurs = (double)Währung.kurse[währunghaben]; //Kurs aus Hashtabelle haben / kurs = Geld in Währung
-            geld = geldhaben / kurs;
-            return geld;
+            geldsoll = geldhaben / kurs;
+            return Math.Round(geldsoll, 2);
         }
 
         public double andereWährung(double geldhaben, string währunghaben, string währungsoll)
@@ -35,7 +35,7 @@ namespace HA3_Währung
             geldsoll = inEuro(geldhaben, währunghaben); //Kurs in Euro wandeln
             geldhaben = geldsoll;                       
             geldsoll = ausEuro(geldhaben, währungsoll); //Kurs in Fremdwährung wandeln
-            return geldsoll;
+            return Math.Round(geldsoll, 2);
         }
     }
 }

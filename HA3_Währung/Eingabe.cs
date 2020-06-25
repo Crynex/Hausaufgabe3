@@ -31,7 +31,7 @@ namespace HA3_Währung
         {
             Console.WriteLine("Bitte geben Sie den Betrag den Sie wechseln möchten ein: ");
             double haben = Convert.ToDouble(Console.ReadLine());
-            return haben;
+            return Math.Round(haben, 2);
         }
     }
 }
