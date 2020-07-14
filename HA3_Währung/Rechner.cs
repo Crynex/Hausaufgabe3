@@ -25,7 +25,14 @@ namespace HA3_Währung
         {
             double geldsoll = geldhaben;
             double kurs = (double)Währung.kurse[währunghaben]; //Kurs aus Hashtabelle haben / kurs = Geld in Währung
-            geldsoll = geldhaben / kurs;
+            try
+            {
+                geldsoll = geldhaben / kurs;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Hier wurde durch 0 geteilt");
+            }
             return Math.Round(geldsoll, 2);
         }
 

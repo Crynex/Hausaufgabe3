@@ -25,7 +25,8 @@ namespace HA3_Währung
 
             double geldchanged = umrechnen(geldhaben, währungsoll, währunghaben);
 
-            new Ausgabe(währunghaben, währungsoll, geldhaben, geldchanged);
+            Ausgabe ausgabe = new Ausgabe(währunghaben, währungsoll, geldhaben, geldchanged);
+            Console.WriteLine(ausgabe.ToString());
         }
 
 
