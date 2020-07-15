@@ -6,13 +6,22 @@ namespace HA3_Währung
 {
     class Ausgabe
     {
-
-        //evtl override mit einbauen
-
+        private String _währunghaben;
+        private String _währungsoll;
+        private double _geldhaben;
+        private double _geldchanged;
         public Ausgabe(string währunghaben, string währungsoll, double geldhaben, double geldchanged)
-        {            
-            Console.WriteLine("Sie haben " + geldhaben + " " + währunghaben + " in " + geldchanged + " " + währungsoll + " getauscht.");
+        {
+            _währunghaben = währunghaben;
+            _währungsoll = währungsoll;
+            _geldhaben = geldhaben;
+            _geldchanged = geldchanged;
         }
+        public override string ToString()
+        {
+            return "Sie haben " + _geldhaben + " " + _währunghaben + " in " + _geldchanged + " " + _währungsoll + " getauscht.";
+        }
+        
         
     }
 }
